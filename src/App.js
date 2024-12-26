@@ -19,6 +19,7 @@ import Service from './components/Services/Service';
 import CurrentServices from './components/CurrentServices/CurrentServices';
 import AddServices from './components/AddServices/AddServies';
 import VehicleUnderService from './components/VehiclesUnderService/VehicleUnderService';
+import AboutUs from './components/aboutus/AboutUs';
 import DeleteService from './components/DeleteService/DeleteService';
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
       <Route path="/addemployee" exact render={() => <AddEmployee/>} />
       <Route path="/addemployee/add" exact render={() => <SuccessfullyAdded/>} />
       <Route path="/employeedetails" exact render={() => <EmployeeData/>} />
+      <Route path="/us" exact render={() => <AboutUs />} /> {/* New About Us page route */}
       <Route path="/history" exact render={() => <DisplayHistory/>} />
       <Route path="/services" exact render={() => <Service/>}/>
       <Route path="/currentservices" exact render={() => <CurrentServices/>} />

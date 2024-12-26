@@ -13,6 +13,14 @@
 .Link{
     font-size: 20px;
 }
+.Logo {
+    display: flex;
+    justify-content: flex-start; /* Align logo to the left */
+    align-items: center;
+    flex: 1; /* Takes the leftmost part of the NavBar */
+  
+   
+  }
 .NavBar a{
     text-decoration: none;
     color: white;
